@@ -58,7 +58,6 @@ python packet_sniffer.py -f "tcp port 443"      # apply a BPF filter
 
 ![Sniffer output](screenshot.png)
 
-```
 
 CSV log format:
 
