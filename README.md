@@ -48,9 +48,11 @@ python packet_sniffer.py -f "tcp port 443"      # apply a BPF filter
 ## Example output
 
 ```
+![Sniffer output](screenshot.png)
 [2026-10-18 11:58:10.250] TCP  140.82.114.22:443 -> 192.168.1.9:49677  (78 bytes)
 [2026-10-18 12:01:44.512] ICMP 192.168.1.9:- -> 142.250.183.174:-  (74 bytes)
 [2026-10-18 12:01:51.903] UDP  192.168.1.9:60211 -> 192.168.1.1:53  (73 bytes)
+
 ```
 
 CSV log format:
