@@ -22,7 +22,7 @@ A lightweight network packet sniffer built with **Python** and **Scapy**. It cap
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/packet-sniffer.git
+git clone git clone https://github.com/mirthiga/packet-sniffer.git
 cd packet-sniffer
 pip install -r requirements.txt
 ```
