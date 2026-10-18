@@ -22,7 +22,7 @@ A lightweight network packet sniffer built with **Python** and **Scapy**. It cap
 ## Installation
 
 ```bash
-git clone git clone https://github.com/mirthiga/packet-sniffer.git
+git clone https://github.com/<your-username>/packet-sniffer.git
 cd packet-sniffer
 pip install -r requirements.txt
 ```
@@ -48,16 +48,12 @@ python packet_sniffer.py -f "tcp port 443"      # apply a BPF filter
 ## Example output
 
 ```
-## Example output
-
-```
-[2026-10-18 11:58:10.250] TCP  140.82.114.22:443 -> ...
-[2026-10-18 12:01:44.512] ICMP ...
-[2026-10-18 12:01:51.903] UDP  ...
+[2026-10-18 11:58:10.250] TCP  140.82.114.22:443 -> 192.168.1.9:49677  (78 bytes)
+[2026-10-18 12:01:44.512] ICMP 192.168.1.9:- -> 142.250.183.174:-  (74 bytes)
+[2026-10-18 12:01:51.903] UDP  192.168.1.9:60211 -> 192.168.1.1:53  (73 bytes)
 ```
 
 ![Sniffer output](screenshot.png)
-
 
 CSV log format:
 
