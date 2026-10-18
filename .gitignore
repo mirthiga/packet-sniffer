@@ -1,0 +1,14 @@
+# Capture logs (contain IP addresses - don't publish)
+*.csv
+*.pcap
+*.pcapng
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Editor / OS
+.vscode/
+.DS_Store
